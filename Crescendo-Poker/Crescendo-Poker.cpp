@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
+#include "RPS-Solver.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
+    Player player_one = Player();
+    Player player_two = Player();
+
+    RPS_Solver solver = RPS_Solver(player_one, player_two);
+
+    solver.solve_RPS(10000);
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

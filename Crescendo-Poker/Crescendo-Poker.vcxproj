@@ -140,6 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Crescendo-Poker.cpp" />
+    <ClCompile Include="RPS-Solver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RPS-Player.h" />
+    <ClInclude Include="RPS-Solver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
