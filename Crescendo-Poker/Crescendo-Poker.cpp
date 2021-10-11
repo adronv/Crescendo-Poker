@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "RPS-Solver.h"
+#include "RIHE-Game.h"
 
 int main()
 {
@@ -13,6 +14,15 @@ int main()
     RPS_Solver solver = RPS_Solver(player_one, player_two);
 
     solver.solve_RPS(10000);
+
+    /*---------------------------------------------------------------------------------------------*/
+
+    RIHE_Game rihg = RIHE_Game();
+    bit_field bf = { 0,0 };
+
+    uint64_t face = rihg.tick_face(bf.face_value, 11);
+
+    std::cout << bf.face_count << std::endl;
 
 }
 

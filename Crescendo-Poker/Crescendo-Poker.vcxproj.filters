@@ -21,12 +21,21 @@
     <ClCompile Include="RPS-Solver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RIHE-Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RPS-Solver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="RPS-Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RIHE-Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RIHE-Player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
